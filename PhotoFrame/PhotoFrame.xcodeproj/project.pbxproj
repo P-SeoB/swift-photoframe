@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D00140A282379C40071FD26 /* VCLoggingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D001409282379C40071FD26 /* VCLoggingViewController.swift */; };
 		8D2C393427B9FA6600A64987 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2C393327B9FA6600A64987 /* AppDelegate.swift */; };
 		8D2C393627B9FA6600A64987 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2C393527B9FA6600A64987 /* SceneDelegate.swift */; };
 		8D2C393B27B9FA6600A64987 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D2C393927B9FA6600A64987 /* Main.storyboard */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8D001409282379C40071FD26 /* VCLoggingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCLoggingViewController.swift; sourceTree = "<group>"; };
 		8D2C393027B9FA6600A64987 /* PhotoFrame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoFrame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D2C393327B9FA6600A64987 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8D2C393527B9FA6600A64987 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -74,6 +76,7 @@
 				8DD2165927BE1C4A009B8DCE /* YellowViewController.swift */,
 				8DD2165B27BE1C5E009B8DCE /* GreenViewController.swift */,
 				8DAB2A3C27BF352D0062095B /* PhotoViewController.swift */,
+				8D001409282379C40071FD26 /* VCLoggingViewController.swift */,
 				8D2C393927B9FA6600A64987 /* Main.storyboard */,
 				8DAB2A3E27BF3C340062095B /* PhotoID.swift */,
 				8D2C394127B9FA6800A64987 /* Info.plist */,
@@ -167,6 +170,7 @@
 				8DAB2A3D27BF352D0062095B /* PhotoViewController.swift in Sources */,
 				8D2C393427B9FA6600A64987 /* AppDelegate.swift in Sources */,
 				8D2C393627B9FA6600A64987 /* SceneDelegate.swift in Sources */,
+				8D00140A282379C40071FD26 /* VCLoggingViewController.swift in Sources */,
 				8DAB2A3F27BF3C340062095B /* PhotoID.swift in Sources */,
 				8DD2165A27BE1C4A009B8DCE /* YellowViewController.swift in Sources */,
 				8DD2165C27BE1C5E009B8DCE /* GreenViewController.swift in Sources */,

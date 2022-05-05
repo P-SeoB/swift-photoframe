@@ -7,7 +7,7 @@
 
 import UIKit
 
-class YellowViewController: UIViewController {
+class YellowViewController: VCLoggingViewController {
 
     //다음버튼 클릭시
     @IBAction func nextButtonTouched(_ sender: UIButton) {
@@ -20,33 +20,4 @@ class YellowViewController: UIViewController {
         self.navigationController?.popViewController(animated: true)
 
     }
-    
-
-    
-//MARK: -- 라이프 사이클 체크
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        print("ViewDidLoad - YellowViewController \n")
-    }
-
-    override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(animated)
-        print("ViewWillAppear - YellowViewController \n")
-    }
-    
-    override func viewDidAppear(_ animated: Bool) {
-        super.viewDidAppear(animated)
-        print("ViewDidAppear - YellowViewController \n")
-    }
-    
-    override func viewWillDisappear(_ animated: Bool) {
-        super.viewWillDisappear(animated)
-        print("ViwWillDisppaear - YellowViewController \n")
-    }
-    
-    override func viewDidDisappear(_ animated: Bool) {
-        super.viewDidDisappear(animated)
-        print("ViewDidDisappear - YellowViewController \n")
-    }
-
 }

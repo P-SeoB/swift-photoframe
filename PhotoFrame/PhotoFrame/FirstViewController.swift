@@ -7,7 +7,7 @@
 
 import UIKit
 
-class FirstViewController:UIViewController {
+class FirstViewController:VCLoggingViewController {
     
     @IBOutlet weak var photoLabel: UILabel!
     @IBOutlet weak var descriptionLabel: UILabel!
@@ -39,27 +39,4 @@ class FirstViewController:UIViewController {
         self.descriptionLabel.textAlignment = .center //정렬
         self.descriptionLabel.font = .systemFont(ofSize: 20.0, weight: .light) //사이즈,폰트
     }
-    
-    //MARK: -- 라이프 사이클 체크
-        override func viewWillAppear(_ animated: Bool) {
-            super.viewWillAppear(animated)
-            print("ViewWillAppear - FirstViewController \n")
-        }
-        
-        override func viewDidAppear(_ animated: Bool) {
-            super.viewDidAppear(animated)
-            print("ViewDidAppear - FirstViewController \n")
-        }
-        
-        override func viewWillDisappear(_ animated: Bool) {
-            super.viewWillDisappear(animated)
-            print("ViwWillDisppaear - FirstViewController \n")
-        }
-        
-        override func viewDidDisappear(_ animated: Bool) {
-            super.viewDidDisappear(animated)
-            print("ViewDidDisappear - FirstViewController \n")
-        }
-    
-    
 }
