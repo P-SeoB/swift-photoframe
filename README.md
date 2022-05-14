@@ -213,7 +213,7 @@ viewDidDisappear()
    
 
 - 헤맸던점
-    - NavigationViewController는 ContainerViewController라 UIViewController보다 상위의 개념인줄 알고 있었지만 NavigationViewController가 조금 더 큰 개념이었다.
+    - NavigationViewController는 ContainerViewController라 UIViewController보다 상위의 개념인줄 알고 있었지만 UIViewController가 조금 더 큰 개념이었다.
     - 위의 개념이 헷갈리는 바람에 UIViewController class에서 self.navigationController? 로 가는 흐름을 찾는데 시간이 많이 걸림.
 
 - 추가학습거리
